@@ -1,10 +1,10 @@
 import React, { useState, useCallback } from 'react';
-import { SearchBar } from './components/SearchBar';
-import { BookList } from './components/BookList';
-import { Loader } from './components/Loader';
-import { NoResults } from './components/NoResults';
-import { Book, SearchType } from './types';
-import { searchBooks } from './services/openLibraryService';
+import { SearchBar } from './components/SearchBar.tsx';
+import { BookList } from './components/BookList.tsx';
+import { Loader } from './components/Loader.tsx';
+import { NoResults } from './components/NoResults.tsx';
+import { Book, SearchType } from './types.ts';
+import { searchBooks } from './services/openLibraryService.ts';
 
 const App: React.FC = () => {
   const [books, setBooks] = useState<Book[]>([]);
