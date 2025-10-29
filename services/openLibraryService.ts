@@ -1,4 +1,4 @@
-import { Book, OpenLibraryDoc, OpenLibraryResponse, SearchType } from '../types.ts';
+import { Book, OpenLibraryDoc, OpenLibraryResponse, SearchType } from '../types';
 
 const API_BASE_URL = 'https://openlibrary.org/search.json';
 const COVER_BASE_URL = 'https://covers.openlibrary.org/b/id/';

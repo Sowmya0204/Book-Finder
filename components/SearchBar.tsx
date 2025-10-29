@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { SearchType } from '../types.ts';
-
+import { SearchType } from '../types';
 interface SearchBarProps {
   onSearch: (query: string, type: SearchType) => void;
   isLoading: boolean;
