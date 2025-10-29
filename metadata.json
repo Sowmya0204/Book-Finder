@@ -1,0 +1,5 @@
+{
+  "name": "Book Finder",
+  "description": "A sleek and modern web application for Alex, a college student, to search for books by title or author using the Open Library API. The app features a clean, responsive design with dynamic results display.",
+  "requestFramePermissions": []
+}
