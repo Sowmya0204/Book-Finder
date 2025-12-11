@@ -1,4 +1,5 @@
 import React, { useState, useCallback } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import { SearchBar } from './components/SearchBar';
 import { BookList } from './components/BookList';
 import { Loader } from './components/Loader';
@@ -84,6 +85,7 @@ const App: React.FC = () => {
       <footer className="text-center py-4 text-slate-500 text-sm">
           <p>Powered by the <a href="https://openlibrary.org/developers/api" target="_blank" rel="noopener noreferrer" className="underline hover:text-cyan-400">Open Library API</a>.</p>
       </footer>
+      <Analytics />
     </div>
   );
 };
